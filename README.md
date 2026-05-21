@@ -1,4 +1,4 @@
-#🌲 EcoType: Forest Cover Type Classification
+# 🌲 EcoType: Forest Cover Type Classification
 
 ## 📌 Overview
 EcoType is a machine learning-based application that predicts forest cover types using environmental and cartographic features such as elevation, slope, and distances to hydrology.
@@ -47,6 +47,8 @@ Best model selected based on accuracy and cross-validation.
 ---
 
 ## 🏗️ Project Structure
+
+```bash
 Eco_Type_Forest_Cover_Classification/
 │
 ├── ecotype_pipeline.py
@@ -59,20 +61,74 @@ Eco_Type_Forest_Cover_Classification/
 │   ├── encoders.pkl
 │   ├── top_features.pkl
 │   └── skewed_features.pkl
+```
 
+---
 
 ## ⚙️ Installation
 
+```bash
 git clone https://github.com/vikas160405/Eco_Type_Forest_Cover_Classification.git
 cd Eco_Type_Forest_Cover_Classification
 pip install -r requirements.txt
+```
 
+---
 
-Step 1: Train Model
+## ▶️ Run the Project
+
+### Step 1: Train the Model
+
+```bash
 python ecotype_pipeline.py
+```
 
-Step 2: Run Application
+### Step 2: Run the Streamlit Application
+
+```bash
 streamlit run app.py
+```
 
 Open in browser:
+
+```bash
 http://localhost:8502/
+```
+
+---
+
+## 📊 Project Presentation (PPT)
+
+📥 View / Download PowerPoint Presentation:  
+https://drive.google.com/file/d/1jSxIvthxzv9EJhWpVxJYDG14qhQGeVM9/view?usp=sharing
+
+---
+
+## 🚀 Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- XGBoost  
+- Streamlit  
+- Matplotlib  
+- Seaborn  
+
+---
+
+## 📌 Features
+- Interactive Streamlit web interface  
+- Real-time forest cover prediction  
+- Multiple ML model comparison  
+- Data visualization and analysis  
+- End-to-end ML workflow  
+
+---
+
+## 📈 Future Improvements
+- Add deep learning models  
+- Deploy using Docker and cloud platforms  
+- Add live GIS map visualization  
+- Improve UI/UX with advanced dashboards  
+
+---
