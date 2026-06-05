@@ -188,7 +188,7 @@ The deployed application provides:
 
 📥 View / Download PowerPoint Presentation:
 
-https://drive.google.com/file/d/1jSxIvthxzv9EJhWpVxJYDG14qhQGeVM9/view?usp=sharing
+https://drive.google.com/file/d/14M2_kzINH4Qs50dqvAD2De0Kx8bjsrCz/view?usp=sharing
 
 The presentation covers:
 
